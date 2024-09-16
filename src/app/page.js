@@ -1,4 +1,4 @@
-import { Appdownload, Connection, FAQ, Footer, Header, HeroImageSection, Ourmission, Realprofile, ResponsiveLayout, Speeddating, SuccesStories } from "@/Components";
+import { Appdownload, Connection, FAQ, Footer, Header, HeroImageSection, Ourmission, Realprofile, ResponsiveLayout, Speeddating, SuccesStories } from "@/components";
 
 export default function Home() {
   
