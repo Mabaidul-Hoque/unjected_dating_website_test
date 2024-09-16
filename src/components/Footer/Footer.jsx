@@ -46,7 +46,7 @@ function Footer() {
             <div className="text-[#ffffff] md:mx-4">
               <p>Connect with us</p>
               <div className="btn-bottom flex gap-3 mt-4  md:justify-start">
-                <a href="https://www.instagram.com/unjectedofficial/">
+                <a href="https://www.instagram.com/unjectedofficial">
                   <Image
                     src={Insta}
                     alt="Instagram"
