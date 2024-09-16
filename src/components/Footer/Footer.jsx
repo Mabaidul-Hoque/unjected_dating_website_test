@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "/public/assets/images/app-logo.svg";
-import Fb from "/public/assets/images/social-media-icons/fb.svg";
+import tiktok from "/public/assets/images/social-media-icons/tiktok.svg";
 import Insta from "/public/assets/images/social-media-icons/insta.svg";
 import Twitter from "/public/assets/images/social-media-icons/twitter.svg";
-import Pinerest from "/public/assets/images/social-media-icons/pinerest.svg";
+import Telegram from "/public/assets/images/social-media-icons/telegram-icon.svg";
 
 function Footer() {
   return (
@@ -53,10 +53,10 @@ function Footer() {
                     className="w-[24px] h-[24px] md:w-[28px] md:h-[28px]"
                   />
                 </a>
-                <a href="#" className="inline-block">
+                <a href="https://www.tiktok.com/notfound" className="inline-block">
                   <Image
-                    src={Fb}
-                    alt="Facebook"
+                    src={tiktok}
+                    alt="tiktok"
                     className="w-[24px] h-[24px] md:w-[28px] md:h-[28px]"
                   />
                 </a>
@@ -68,10 +68,10 @@ function Footer() {
                   />
                 </a>
 
-                <a href="#">
+                <a href="https://t.me/THEUNJECTED">
                   <Image
-                    src={Pinerest}
-                    alt="Pinerest"
+                    src={Telegram}
+                    alt="Telegram"
                     className="w-[24px] h-[24px] md:w-[28px] md:h-[28px]"
                   />
                 </a>
