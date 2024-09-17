@@ -15,7 +15,7 @@ const Speeddating = () => {
           <p className="text-xs md:text-base lg:text-xl text-[#F7A293] font-bold mb-2 sm:mb-3 md:mb-4 lg:mb-5">
             SPEED DATING
           </p>
-          <p className="w-full text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] font-bold mb-4 leading-8 lg:leading-[63px]">
+          <p className="w-full text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] font-bold mb-4 leading-8 lg:leading-[63px] dark:text-white">
             {screenSize < 640 ? (
               "Meet, Engage, Connect Dive into Our  Events!"
             ) : (
@@ -25,7 +25,7 @@ const Speeddating = () => {
               </>
             )}
           </p>
-          <p className="text-sm md:text-base lg:text-xl sm:px-10 md:px-20 lg:px-40">
+          <p className="text-sm md:text-base lg:text-xl sm:px-10 md:px-20 lg:px-40 dark:text-white">
             Step beyond the screen and connect in real life! Our exclusive
             events allow you to meet and mingle with other members in a relaxed,
             social setting.
