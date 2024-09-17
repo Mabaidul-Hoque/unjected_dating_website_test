@@ -11,7 +11,7 @@ const FaqItem = ({ idx, faq, toggleFAQ, faqLength, openIndexes }) => {
     >
       <div
         onClick={() => toggleFAQ(idx)}
-        className="flex justify-start items-center gap-4 "
+        className="flex justify-start items-center gap-4 cursor-pointer"
       >
         {openIndexes.includes(idx) ? (
           <Image
@@ -19,7 +19,7 @@ const FaqItem = ({ idx, faq, toggleFAQ, faqLength, openIndexes }) => {
             alt="add icon"
             width={24}
             height={24}
-            className=" text-[#cb4932] bg-gradient-to-r from-[#f1442626] to-[#f56b53] bg-clip-text cursor-pointer"
+            className=" text-[#cb4932] bg-gradient-to-r from-[#f1442626] to-[#f56b53] bg-clip-text"
           />
         ) : (
           <Image
@@ -27,7 +27,7 @@ const FaqItem = ({ idx, faq, toggleFAQ, faqLength, openIndexes }) => {
             alt="add icon"
             width={24}
             height={24}
-            className=" text-[#cb4932] bg-gradient-to-r from-[#f1442626] to-[#f56b53] bg-clip-text cursor-pointer"
+            className=" text-[#cb4932] bg-gradient-to-r from-[#f1442626] to-[#f56b53] bg-clip-text"
           />
         )}
         <h2 className="text-base md:text-lg lg:text-xl font-normal bg-gradient-to-r from-[#ec9f9f] to-[#f56b53] text-transparent bg-clip-text">
