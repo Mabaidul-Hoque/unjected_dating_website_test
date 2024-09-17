@@ -79,7 +79,7 @@ const SuccessStories = () => {
             <RiArrowLeftSLine
               size={30}
               color={`${
-                currentIndex === 0 || isSliding ? "lightgray" : "#1A1A1A"
+                currentIndex === 0 || isSliding ? "lightgray" : "#1A1A1A dark:text-white"
               }`}
             />
           </button>
@@ -115,7 +115,7 @@ const SuccessStories = () => {
               color={`${
                 currentIndex === reviews.length - 1 || isSliding
                   ? "lightgray"
-                  : "#1A1A1A"
+                  : "#1A1A1A dark:text-white"
               }`}
             />
           </button>
