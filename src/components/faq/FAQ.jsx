@@ -51,7 +51,7 @@ const FAQs = () => {
     <div className="w-full">
       <div className="max-w-[1440px] mx-auto flex justify-center items-center py-8">
         <div className="p-2 w-full">
-          <h2 className="font-bold text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] text-center mb-4 sm:mb-6 md:mb-8 lg:mb-12">
+          <h2 className="font-bold text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] text-center mb-4 sm:mb-6 md:mb-8 lg:mb-12 dark:text-white">
             {screenSize < 640 ? "FAQ" : "Frequently Asked Questions"}
           </h2>
 
