@@ -73,7 +73,7 @@ const SuccessStories = () => {
         <div className=" flex justify-center items-center overflow-hidden w-full">
           <button
             onClick={handlePrev}
-            className="hidden lg:block absolute left-[4%] lg:left-[2%] top-[55%] px-3 py-2 rounded"
+            className="hidden lg:block absolute left-[4%] lg:left-[2%] top-[55%] px-3 py-2 rounded dark:text-white"
             disabled={currentIndex === 0 || isSliding}
           >
             <RiArrowLeftSLine
@@ -107,7 +107,7 @@ const SuccessStories = () => {
 
           <button
             onClick={handleNext}
-            className="hidden lg:block absolute right-[4%] lg:right-[2%] top-[55%] px-3 py-2 rounded"
+            className="hidden lg:block absolute right-[4%] lg:right-[2%] top-[55%] px-3 py-2 rounded dark:text-white"
             disabled={currentIndex === reviews.length - 1 || isSliding}
           >
             <RiArrowRightSLine
@@ -121,7 +121,7 @@ const SuccessStories = () => {
           </button>
         </div>
 
-        <div className="flex justify-center items-center gap-3 py-5 md:py-10 dark:text-white">
+        <div className="flex justify-center items-center gap-3 py-5 md:py-10">
           {reviews.map((_, idx) => (
             <button
               key={idx}
