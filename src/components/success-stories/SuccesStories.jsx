@@ -61,7 +61,7 @@ const SuccessStories = () => {
   return (
     <div className=" w-full ">
       <div className="max-w-[1440px] mx-auto relative flex flex-col justify-center items-center px-2 sm:px-4 md:px-6 lg:px-20 py-5 sm:py-10 md:py-12 lg:py-16">
-        <div className="flex flex-col justify-center items-center gap-2 sm:gap-3 md:gap-4 lg:gap-8 text-center mb-5 sm:mb-7 md:mb-8 lg:mb-10">
+        <div className="flex flex-col justify-center items-center gap-2 sm:gap-3 md:gap-4 lg:gap-8 text-center mb-5 sm:mb-7 md:mb-8 lg:mb-10 dark:text-white">
           <h2 className="font-bold text-[32px] md:text-3xl lg:text-5xl xl:text-[52px]">
             Our Success Stories
           </h2>
