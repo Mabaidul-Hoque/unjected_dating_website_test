@@ -6,7 +6,7 @@ import Image from "next/image";
 const ReviewCard = ({ rating, title, description, active }) => {
   return (
     <div
-      className={`${active} flex flex-1 flex-col justify-center items-center gap-2 border rounded-[12px] md:rounded-[28px] p-2 max-w-72 md:max-w-80 lg:max-w-[400px] h-52`}
+      className={`${active} flex flex-1 flex-col justify-center items-center gap-2 border rounded-[12px] md:rounded-[28px] p-2 max-w-72 md:max-w-80 lg:max-w-[400px] h-52 dark:text-white`}
     >
       <div className="flex justify-center items-center gap-3">
         <Image
