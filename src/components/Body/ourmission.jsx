@@ -7,7 +7,7 @@ const TwoSectionLayout = () => {
         <p className="text-xs md:text-sm lg:text-base font-bold mb-2 text-[#F7A293] uppercase">
           Our Mission
         </p>
-        <p className="text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] font-bold leading-7 lg:leading-[50px]">
+        <p className="text-[32px] md:text-3xl lg:text-5xl xl:text-[52px] font-bold leading-7 lg:leading-[50px] dark:text-white">
           Make value-based connections on Unjected
         </p>
       </div>
