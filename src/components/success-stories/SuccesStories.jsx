@@ -121,7 +121,7 @@ const SuccessStories = () => {
           </button>
         </div>
 
-        <div className="flex justify-center items-center gap-3 py-5 md:py-10">
+        <div className="flex justify-center items-center gap-3 py-5 md:py-10 dark:text-white">
           {reviews.map((_, idx) => (
             <button
               key={idx}
